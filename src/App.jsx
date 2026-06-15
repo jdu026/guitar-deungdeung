@@ -10,6 +10,7 @@ import PracticeTracker from "./components/PracticeTracker"
 const DURATION = 2000
 
 export default function App() {
+  // 메인 App 컴포넌트 시작
   const [selected, setSelected] = useState(null)
   const [progress, setProgress] = useState(0)
   const [playing, setPlaying] = useState(false)
